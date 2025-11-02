@@ -1,12 +1,12 @@
  * AtlasMesh Runtimes License Agreement
  * Last updated July 28, 2025. Replaces all prior versions.
  *
- * Copyright (c) 2024-2025, Esoteric Software LLC
+ * Copyright (c) 2024-2025, HUKIRY Software LLC
  *
  * Integration of the AtlasMesh Runtimes into software or otherwise creating
  * derivative works of the AtlasMesh Runtimes is permitted under the terms and
  * conditions of Section 2 of the AtlasMesh Editor License Agreement:
- * https://github.com/hukiry/AtlasMesh/license
+ * http://hukiry.com/AtlasMesh-editor-license
  *
  * Otherwise, it is permitted to integrate the AtlasMesh Runtimes into software or
  * otherwise create derivative works of the AtlasMesh Runtimes (collectively,
@@ -14,10 +14,10 @@
  * AtlasMesh Editor license and redistribution of the Products in any form must
  * include this license and copyright notice.
  *
- * THE ATLASMESH RUNTIMES ARE PROVIDED BY ESOTERIC SOFTWARE LLC "AS IS" AND ANY
+ * THE ATLASMESH RUNTIMES ARE PROVIDED BY HUKIRY SOFTWARE LLC "AS IS" AND ANY
  * EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
  * WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
- * DISCLAIMED. IN NO EVENT SHALL ESOTERIC SOFTWARE LLC BE LIABLE FOR ANY
+ * DISCLAIMED. IN NO EVENT SHALL HUKIRY SOFTWARE LLC BE LIABLE FOR ANY
  * DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
  * (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES,
  * BUSINESS INTERRUPTION, OR LOSS OF USE, DATA, OR PROFITS) HOWEVER CAUSED AND
