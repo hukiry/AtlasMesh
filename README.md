@@ -26,7 +26,7 @@ Example effect
 	
 - Test Example
 
-![Test Result](Documentation~/images/configure.png)
+![Test Result](Documentation~/images/test_result.png)
 
 - script nutzen view
 
