@@ -6,7 +6,7 @@
  * Integration of the AtlasMesh Runtimes into software or otherwise creating
  * derivative works of the AtlasMesh Runtimes is permitted under the terms and
  * conditions of Section 2 of the AtlasMesh Editor License Agreement:
- * http://hukiry.com/AtlasMesh-editor-license
+ * https://github.com/hukiry/AtlasMesh/license
  *
  * Otherwise, it is permitted to integrate the AtlasMesh Runtimes into software or
  * otherwise create derivative works of the AtlasMesh Runtimes (collectively,
