@@ -25,16 +25,16 @@ Dieses Plugin kann die Leistung Ihres Spiels verbessern.
 Example effect
 	
 - Test Example
-![Test Result](Documentation~\images\test_result.png)
+![Test Result](Documentation~/images/configure.png)
 
 - script nutzen view
-![script nutzen view](Documentation~\images\script_nutzen.png)
+![script nutzen view](Documentation~/images/script_nutzen.png)
 
 - Plugin configure
-![Plugin configure view](Documentation~\images\configure.png)
+![Plugin configure view](Documentation~/images/configure.png)
 
 - bake window
-![pack window](Documentation~\images\pack.png)
+![pack window](Documentation~/images/pack.png)
 
 
 * 2019.4 and later (recommended)
