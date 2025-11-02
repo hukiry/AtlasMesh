@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c75ca386e4094047bed42b31e9ecb84, type: 3}
+  m_Name: hero-pro_SkeletonData
+  m_EditorClassIdentifier: 
+  clipTexture: {fileID: 2800000, guid: b591e85f94d2d8e449e3307f8239f668, type: 2}
+  mesh: {fileID: 4300000, guid: a18958d55392699448835152ab2a41e8, type: 2}
+  mainTexture: {fileID: 2800000, guid: 34a4cd6205a0aa045b7c206df4ef024e, type: 3}
+  isAnimation: 1
+  isSpine: 1
+  speed: 10
+  clips:
+  - name: attack
+    startFrame: 0
+    frameCount: 12
+    index: 0
+  - name: crouch
+    startFrame: 12
+    frameCount: 30
+    index: 1
+  - name: crouch-from fall
+    startFrame: 42
+    frameCount: 33
+    index: 2
+  - name: fall
+    startFrame: 75
+    frameCount: 30
+    index: 3
+  - name: head-turn
+    startFrame: 105
+    frameCount: 60
+    index: 4
+  - name: idle
+    startFrame: 165
+    frameCount: 30
+    index: 5
+  - name: idle-from fall
+    startFrame: 195
+    frameCount: 18
+    index: 6
+  - name: jump
+    startFrame: 213
+    frameCount: 30
+    index: 7
+  - name: morningstar pose
+    startFrame: 243
+    frameCount: 0
+    index: 8
+  - name: run
+    startFrame: 243
+    frameCount: 16
+    index: 9
+  - name: run-from fall
+    startFrame: 259
+    frameCount: 24
+    index: 10
+  - name: walk
+    startFrame: 283
+    frameCount: 33
+    index: 11

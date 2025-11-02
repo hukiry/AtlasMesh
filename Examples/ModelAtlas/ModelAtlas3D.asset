@@ -1,0 +1,596 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19a2a4638155a9d47953f3359bfcb4a5, type: 3}
+  m_Name: ModelAtlas3D
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: a12a6c7f880ecb346af059371d79703e, type: 2}
+  mainTextureArray:
+  - {fileID: 2800000, guid: 3f66a5bfefbb663439a77c4fe2905b44, type: 3}
+  - {fileID: 2800000, guid: 329f14352ddfa764591872f5b77e6612, type: 3}
+  mainTextureUv:
+  - spriteName: hero-pro_SkeletonData
+    uv: {x: 0, y: 0.25097656, z: 0.5, w: 0.125}
+    textureRect:
+      serializedVersion: 2
+      x: 0
+      y: 514
+      width: 1024
+      height: 256
+    index: 0
+  - spriteName: Bumble
+    uv: {x: 0.50097656, y: 0, z: 0.25, w: 0.25}
+    textureRect:
+      serializedVersion: 2
+      x: 1026
+      y: 0
+      width: 512
+      height: 512
+    index: 0
+  - spriteName: Seed
+    uv: {x: 0.50097656, y: 0.25097656, z: 0.25, w: 0.25}
+    textureRect:
+      serializedVersion: 2
+      x: 1026
+      y: 514
+      width: 512
+      height: 512
+    index: 0
+  - spriteName: Fledgling
+    uv: {x: 0, y: 0.37695312, z: 0.25, w: 0.25}
+    textureRect:
+      serializedVersion: 2
+      x: 0
+      y: 772
+      width: 512
+      height: 512
+    index: 0
+  - spriteName: eyes_SkeletonData
+    uv: {x: 0, y: 0, z: 0.5, w: 0.25}
+    textureRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1024
+      height: 512
+    index: 0
+  - spriteName: Bat_Lord
+    uv: {x: 0.25097656, y: 0.5019531, z: 0.25, w: 0.25}
+    textureRect:
+      serializedVersion: 2
+      x: 514
+      y: 1028
+      width: 512
+      height: 512
+    index: 0
+  - spriteName: sack-pro_SkeletonData
+    uv: {x: 0.5019531, y: 0.5019531, z: 0.25, w: 0.25}
+    textureRect:
+      serializedVersion: 2
+      x: 1028
+      y: 1028
+      width: 512
+      height: 512
+    index: 0
+  - spriteName: FootSoldier_SkeletonData
+    uv: {x: 0.5019531, y: 0, z: 0.25, w: 0.25}
+    textureRect:
+      serializedVersion: 2
+      x: 514
+      y: 0
+      width: 256
+      height: 256
+    index: 1
+  - spriteName: Bee
+    uv: {x: 0, y: 0, z: 0.5, w: 0.5}
+    textureRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 512
+      height: 512
+    index: 1
+  - spriteName: Raggedy Spineboy_SkeletonData
+    uv: {x: 0, y: 0.5019531, z: 0.25, w: 0.25}
+    textureRect:
+      serializedVersion: 2
+      x: 0
+      y: 514
+      width: 256
+      height: 256
+    index: 1
+  clipTexture: {fileID: 2800000, guid: cf119b77c51605242bbb7dafd7b7189e, type: 2}
+  clipTextureUv:
+  - spriteName: Bat_Lord
+    uv: {x: 0, y: 0, z: 0, w: 0}
+    textureRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 228
+      height: 315
+    index: 0
+  - spriteName: hero-pro_SkeletonData
+    uv: {x: 0, y: 0, z: 0, w: 0}
+    textureRect:
+      serializedVersion: 2
+      x: 228
+      y: 0
+      width: 207
+      height: 316
+    index: 0
+  - spriteName: sack-pro_SkeletonData
+    uv: {x: 0, y: 0, z: 0, w: 0}
+    textureRect:
+      serializedVersion: 2
+      x: 435
+      y: 0
+      width: 185
+      height: 248
+    index: 0
+  - spriteName: Fledgling
+    uv: {x: 0, y: 0, z: 0, w: 0}
+    textureRect:
+      serializedVersion: 2
+      x: 620
+      y: 0
+      width: 116
+      height: 348
+    index: 0
+  - spriteName: Seed
+    uv: {x: 0, y: 0, z: 0, w: 0}
+    textureRect:
+      serializedVersion: 2
+      x: 736
+      y: 0
+      width: 88
+      height: 236
+    index: 0
+  - spriteName: Bumble
+    uv: {x: 0, y: 0, z: 0, w: 0}
+    textureRect:
+      serializedVersion: 2
+      x: 824
+      y: 0
+      width: 64
+      height: 285
+    index: 0
+  - spriteName: Bee
+    uv: {x: 0, y: 0, z: 0, w: 0}
+    textureRect:
+      serializedVersion: 2
+      x: 888
+      y: 0
+      width: 44
+      height: 285
+    index: 0
+  - spriteName: FootSoldier_SkeletonData
+    uv: {x: 0, y: 0, z: 0, w: 0}
+    textureRect:
+      serializedVersion: 2
+      x: 932
+      y: 0
+      width: 44
+      height: 167
+    index: 0
+  - spriteName: Raggedy Spineboy_SkeletonData
+    uv: {x: 0, y: 0, z: 0, w: 0}
+    textureRect:
+      serializedVersion: 2
+      x: 435
+      y: 248
+      width: 180
+      height: 40
+    index: 0
+  meshLabels:
+  - labelType: 0
+    labels:
+    - Bat_Lord
+    - Bee
+    - Bumble
+    - Fledgling
+    - Seed
+  - labelType: 1
+    labels: []
+  - labelType: 2
+    labels:
+    - eyes_SkeletonData
+    - FootSoldier_SkeletonData
+    - hero-pro_SkeletonData
+    - Raggedy Spineboy_SkeletonData
+    - sack-pro_SkeletonData
+  modelInfos:
+  - spriteName: Bat_Lord
+    mesh: {fileID: 4300000, guid: 56e2ace5a30795b4995ad54a46787db4, type: 2}
+    speed: 10
+    isAnimation: 1
+    isSpine: 0
+    clips:
+    - name: Idle
+      startFrame: 0
+      frameCount: 30
+      index: 0
+    - name: Fly Forward In Place
+      startFrame: 30
+      frameCount: 30
+      index: 1
+    - name: Fly Forward W Root
+      startFrame: 60
+      frameCount: 30
+      index: 2
+    - name: Bite Attack
+      startFrame: 90
+      frameCount: 26
+      index: 3
+    - name: Projectile Attack
+      startFrame: 116
+      frameCount: 26
+      index: 4
+    - name: Kick Attack
+      startFrame: 142
+      frameCount: 26
+      index: 5
+    - name: Cast Spell
+      startFrame: 168
+      frameCount: 36
+      index: 6
+    - name: Spin Attack Attack
+      startFrame: 204
+      frameCount: 10
+      index: 7
+    - name: Take Damage
+      startFrame: 214
+      frameCount: 20
+      index: 8
+    - name: Die
+      startFrame: 234
+      frameCount: 51
+      index: 9
+    - name: Turn Right
+      startFrame: 285
+      frameCount: 15
+      index: 10
+    - name: Turn Left
+      startFrame: 300
+      frameCount: 15
+      index: 11
+  - spriteName: Bee
+    mesh: {fileID: 4300000, guid: 8176c172b8a914640b32a1f09a880bf6, type: 2}
+    speed: 10
+    isAnimation: 1
+    isSpine: 0
+    clips:
+    - name: Idle
+      startFrame: 0
+      frameCount: 36
+      index: 0
+    - name: Bite Attack
+      startFrame: 36
+      frameCount: 26
+      index: 1
+    - name: Die
+      startFrame: 62
+      frameCount: 51
+      index: 2
+    - name: Fly Forward In Place
+      startFrame: 113
+      frameCount: 20
+      index: 3
+    - name: Fly Forward W Root
+      startFrame: 133
+      frameCount: 20
+      index: 4
+    - name: Projectile Attack
+      startFrame: 153
+      frameCount: 26
+      index: 5
+    - name: Sting Attack
+      startFrame: 179
+      frameCount: 26
+      index: 6
+    - name: Take Damage
+      startFrame: 205
+      frameCount: 20
+      index: 7
+    - name: Turn Left
+      startFrame: 225
+      frameCount: 15
+      index: 8
+    - name: Turn Right
+      startFrame: 240
+      frameCount: 15
+      index: 9
+    - name: Cast Spell
+      startFrame: 255
+      frameCount: 30
+      index: 10
+  - spriteName: Bumble
+    mesh: {fileID: 4300000, guid: 940a0b0ab4d3eb54292189ae51e0c4fc, type: 2}
+    speed: 10
+    isAnimation: 1
+    isSpine: 0
+    clips:
+    - name: Idle
+      startFrame: 0
+      frameCount: 36
+      index: 0
+    - name: Fly Forward In Place
+      startFrame: 36
+      frameCount: 30
+      index: 1
+    - name: Fly Forward W Root
+      startFrame: 66
+      frameCount: 30
+      index: 2
+    - name: Cast Spell
+      startFrame: 96
+      frameCount: 36
+      index: 3
+    - name: Die
+      startFrame: 132
+      frameCount: 51
+      index: 4
+    - name: Head Attack
+      startFrame: 183
+      frameCount: 26
+      index: 5
+    - name: Sting Attack
+      startFrame: 209
+      frameCount: 26
+      index: 6
+    - name: Take Damage
+      startFrame: 235
+      frameCount: 20
+      index: 7
+    - name: Turn Left
+      startFrame: 255
+      frameCount: 15
+      index: 8
+    - name: Turn Right
+      startFrame: 270
+      frameCount: 15
+      index: 9
+  - spriteName: Fledgling
+    mesh: {fileID: 4300000, guid: 0d4b4116feb72d24da4a153bb298e25d, type: 2}
+    speed: 10
+    isAnimation: 1
+    isSpine: 0
+    clips:
+    - name: Walk Forward In Place
+      startFrame: 0
+      frameCount: 20
+      index: 0
+    - name: Walk Forward W Root
+      startFrame: 20
+      frameCount: 20
+      index: 1
+    - name: Run Forward In Place
+      startFrame: 40
+      frameCount: 15
+      index: 2
+    - name: Run Forward W Root
+      startFrame: 55
+      frameCount: 15
+      index: 3
+    - name: Idle
+      startFrame: 70
+      frameCount: 30
+      index: 4
+    - name: Idle 02
+      startFrame: 100
+      frameCount: 91
+      index: 5
+    - name: Bite Attack
+      startFrame: 191
+      frameCount: 26
+      index: 6
+    - name: Cast Spell
+      startFrame: 217
+      frameCount: 30
+      index: 7
+    - name: Die
+      startFrame: 247
+      frameCount: 51
+      index: 8
+    - name: Take Damage
+      startFrame: 298
+      frameCount: 20
+      index: 9
+    - name: Turn Left
+      startFrame: 318
+      frameCount: 15
+      index: 10
+    - name: Turn Right
+      startFrame: 333
+      frameCount: 15
+      index: 11
+  - spriteName: Seed
+    mesh: {fileID: 4300000, guid: 0e59741d01cb3514abf0eed122b812b3, type: 2}
+    speed: 10
+    isAnimation: 1
+    isSpine: 0
+    clips:
+    - name: Walk Forward In Place
+      startFrame: 0
+      frameCount: 20
+      index: 0
+    - name: Walk Forward W Root
+      startFrame: 20
+      frameCount: 20
+      index: 1
+    - name: Idle
+      startFrame: 40
+      frameCount: 30
+      index: 2
+    - name: Cast Spell
+      startFrame: 70
+      frameCount: 30
+      index: 3
+    - name: Die
+      startFrame: 100
+      frameCount: 40
+      index: 4
+    - name: Head Attack
+      startFrame: 140
+      frameCount: 26
+      index: 5
+    - name: Run Forward In Place
+      startFrame: 166
+      frameCount: 10
+      index: 6
+    - name: Run Forward W Root
+      startFrame: 176
+      frameCount: 10
+      index: 7
+    - name: Take Damage
+      startFrame: 186
+      frameCount: 20
+      index: 8
+    - name: Turn Left
+      startFrame: 206
+      frameCount: 15
+      index: 9
+    - name: Turn Right
+      startFrame: 221
+      frameCount: 15
+      index: 10
+  - spriteName: eyes_SkeletonData
+    mesh: {fileID: 4300000, guid: a805a291404b9d740bf73a8f5c42e1fa, type: 2}
+    speed: 10
+    isAnimation: 1
+    isSpine: 1
+    clips: []
+  - spriteName: FootSoldier_SkeletonData
+    mesh: {fileID: 4300000, guid: e7b74c3dfc4ed3040ad61b2d69f50a97, type: 2}
+    speed: 10
+    isAnimation: 1
+    isSpine: 1
+    clips:
+    - name: Attack
+      startFrame: 0
+      frameCount: 25
+      index: 0
+    - name: DeathBackward
+      startFrame: 25
+      frameCount: 10
+      index: 1
+    - name: DeathForward
+      startFrame: 35
+      frameCount: 10
+      index: 2
+    - name: Idle
+      startFrame: 45
+      frameCount: 30
+      index: 3
+    - name: Idle2
+      startFrame: 75
+      frameCount: 30
+      index: 4
+    - name: Idle3
+      startFrame: 105
+      frameCount: 30
+      index: 5
+    - name: Move
+      startFrame: 135
+      frameCount: 20
+      index: 6
+    - name: Parried
+      startFrame: 155
+      frameCount: 12
+      index: 7
+  - spriteName: hero-pro_SkeletonData
+    mesh: {fileID: 4300000, guid: a18958d55392699448835152ab2a41e8, type: 2}
+    speed: 10
+    isAnimation: 1
+    isSpine: 1
+    clips:
+    - name: attack
+      startFrame: 0
+      frameCount: 12
+      index: 0
+    - name: crouch
+      startFrame: 12
+      frameCount: 30
+      index: 1
+    - name: crouch-from fall
+      startFrame: 42
+      frameCount: 33
+      index: 2
+    - name: fall
+      startFrame: 75
+      frameCount: 30
+      index: 3
+    - name: head-turn
+      startFrame: 105
+      frameCount: 60
+      index: 4
+    - name: idle
+      startFrame: 165
+      frameCount: 30
+      index: 5
+    - name: idle-from fall
+      startFrame: 195
+      frameCount: 18
+      index: 6
+    - name: jump
+      startFrame: 213
+      frameCount: 30
+      index: 7
+    - name: morningstar pose
+      startFrame: 243
+      frameCount: 0
+      index: 8
+    - name: run
+      startFrame: 243
+      frameCount: 16
+      index: 9
+    - name: run-from fall
+      startFrame: 259
+      frameCount: 24
+      index: 10
+    - name: walk
+      startFrame: 283
+      frameCount: 33
+      index: 11
+  - spriteName: Raggedy Spineboy_SkeletonData
+    mesh: {fileID: 4300000, guid: 906f07a99a1be354fa2f8320750e5a1e, type: 2}
+    speed: 10
+    isAnimation: 1
+    isSpine: 1
+    clips:
+    - name: animation
+      startFrame: 0
+      frameCount: 40
+      index: 0
+  - spriteName: sack-pro_SkeletonData
+    mesh: {fileID: 4300000, guid: 9f1b843cc2aafbb4e9b4aeb0ea3a1d22, type: 2}
+    speed: 10
+    isAnimation: 1
+    isSpine: 1
+    clips:
+    - name: cape-follow-example
+      startFrame: 0
+      frameCount: 91
+      index: 0
+    - name: fall-in
+      startFrame: 91
+      frameCount: 51
+      index: 1
+    - name: hello
+      startFrame: 142
+      frameCount: 86
+      index: 2
+    - name: walk
+      startFrame: 228
+      frameCount: 20
+      index: 3
+  spriteAtlasID: 0
+  spriteAtlasName: 

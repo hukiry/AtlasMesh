@@ -1,0 +1,30 @@
+{
+	"name": "com.hukiry.atlasmesh",
+	"displayName": "AtlasMesh",
+	"description": "<b><size=16>1，<color=#fff><u>支持不同模型切换</u></color>\n2，<color=#fff><u>支持不同纹理切换</u></color>\n3，<color=#fff><u>支持spine插件动画烘焙</u></color>\n4，<color=#fff><u>高性能渲染</u></color>\n5，<color=#fff><u>支持多模型合并</u></color>\n6，支持多材质合并\n7，<color=#fff><u>支持不同动画切换</u></color>\n8，<color=#fff><u>支持动画循环和动画速度，一次播放等等</u></color>\n9，便于开发者操作\n10，<color=#fff><u>支持一键烘焙所有模型</u></color></size></b>",
+	"version": "2.0.0",
+	"unity": "2019.3",
+	"author": {
+		"name": "hukiry Software",
+		"email": "1452828429@qq.com"
+	},
+	"category": "Game",
+	"keywords": [
+		"AtlasMesh",
+		"AtlasMesh-unity",
+		"animation"
+	],
+	"license": "SEE LICENSE IN LICENSE",
+	"dependencies": {
+		"com.unity.2d.sprite": "1.0.0",
+		"com.unity.mathematics": "1.2.6"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git@github.com:hukiry/atlasmesh.git"
+	},
+	"bugs": {
+		"url": "https://github.com/hukiry/atlasmesh-runtimes/issues"
+	},
+	"homepage": "https://github.com/hukiry/atlasmesh-runtimes#readme"
+}

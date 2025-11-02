@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c75ca386e4094047bed42b31e9ecb84, type: 3}
+  m_Name: Bee
+  m_EditorClassIdentifier: 
+  clipTexture: {fileID: 2800000, guid: f7ef8612fa9ccd04197ed6a8a5f7d269, type: 2}
+  mesh: {fileID: 4300000, guid: 8176c172b8a914640b32a1f09a880bf6, type: 2}
+  mainTexture: {fileID: 2800000, guid: 7e4c1e4f0784d4744868602644016316, type: 3}
+  isAnimation: 1
+  isSpine: 0
+  speed: 10
+  clips:
+  - name: Idle
+    startFrame: 0
+    frameCount: 36
+    index: 0
+  - name: Bite Attack
+    startFrame: 36
+    frameCount: 26
+    index: 1
+  - name: Die
+    startFrame: 62
+    frameCount: 51
+    index: 2
+  - name: Fly Forward In Place
+    startFrame: 113
+    frameCount: 20
+    index: 3
+  - name: Fly Forward W Root
+    startFrame: 133
+    frameCount: 20
+    index: 4
+  - name: Projectile Attack
+    startFrame: 153
+    frameCount: 26
+    index: 5
+  - name: Sting Attack
+    startFrame: 179
+    frameCount: 26
+    index: 6
+  - name: Take Damage
+    startFrame: 205
+    frameCount: 20
+    index: 7
+  - name: Turn Left
+    startFrame: 225
+    frameCount: 15
+    index: 8
+  - name: Turn Right
+    startFrame: 240
+    frameCount: 15
+    index: 9
+  - name: Cast Spell
+    startFrame: 255
+    frameCount: 30
+    index: 10

@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c75ca386e4094047bed42b31e9ecb84, type: 3}
+  m_Name: Raggedy Spineboy_SkeletonData
+  m_EditorClassIdentifier: 
+  clipTexture: {fileID: 2800000, guid: c67b9f624430a544e927c1a0758cec99, type: 2}
+  mesh: {fileID: 4300000, guid: 906f07a99a1be354fa2f8320750e5a1e, type: 2}
+  mainTexture: {fileID: 2800000, guid: 0f7b2a8f1911979458d7c66137651d43, type: 3}
+  isAnimation: 1
+  isSpine: 1
+  speed: 10
+  clips:
+  - name: animation
+    startFrame: 0
+    frameCount: 40
+    index: 0

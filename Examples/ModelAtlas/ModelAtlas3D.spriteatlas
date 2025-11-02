@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ModelAtlas3D
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 1
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 4
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_IgnorePlatformSupport: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 2
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 1
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 2800000, guid: c6e5928bfcc25fe4b9187e714d5e82c6, type: 3}
+    - {fileID: 2800000, guid: 7e4c1e4f0784d4744868602644016316, type: 3}
+    - {fileID: 2800000, guid: 016045143b2fbf64c974fd05ea6a4c56, type: 3}
+    - {fileID: 2800000, guid: 8a2fbbe5d4cfe134cb1164772d892a8d, type: 3}
+    - {fileID: 2800000, guid: 5c3287e4f8e04694ebda707329cc6d72, type: 3}
+    - {fileID: 2800000, guid: 237b95e66ff66314cb8ea083566c9ddb, type: 3}
+    - {fileID: 2800000, guid: a5e49b35f220b6c41ba6a335dbf1d1a8, type: 3}
+    - {fileID: 2800000, guid: 34a4cd6205a0aa045b7c206df4ef024e, type: 3}
+    - {fileID: 2800000, guid: 0f7b2a8f1911979458d7c66137651d43, type: 3}
+    - {fileID: 2800000, guid: 538f394c91d1cfe4d923a3188465be20, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+    packedSpriteRenderDataKeys:
+    - 34a4cd6205a0aa045b7c206df4ef024e: 21300000
+    - 016045143b2fbf64c974fd05ea6a4c56: 21300000
+    - 5c3287e4f8e04694ebda707329cc6d72: 21300000
+    - a5e49b35f220b6c41ba6a335dbf1d1a8: 21300000
+    - 8a2fbbe5d4cfe134cb1164772d892a8d: 21300000
+    - 237b95e66ff66314cb8ea083566c9ddb: 21300000
+    - c6e5928bfcc25fe4b9187e714d5e82c6: 21300000
+    - 538f394c91d1cfe4d923a3188465be20: 21300000
+    - 7e4c1e4f0784d4744868602644016316: 21300000
+    - 0f7b2a8f1911979458d7c66137651d43: 21300000
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 34a4cd6205a0aa045b7c206df4ef024e, type: 3}
+  - {fileID: 21300000, guid: 016045143b2fbf64c974fd05ea6a4c56, type: 3}
+  - {fileID: 21300000, guid: 5c3287e4f8e04694ebda707329cc6d72, type: 3}
+  - {fileID: 21300000, guid: a5e49b35f220b6c41ba6a335dbf1d1a8, type: 3}
+  - {fileID: 21300000, guid: 8a2fbbe5d4cfe134cb1164772d892a8d, type: 3}
+  - {fileID: 21300000, guid: 237b95e66ff66314cb8ea083566c9ddb, type: 3}
+  - {fileID: 21300000, guid: c6e5928bfcc25fe4b9187e714d5e82c6, type: 3}
+  - {fileID: 21300000, guid: 538f394c91d1cfe4d923a3188465be20, type: 3}
+  - {fileID: 21300000, guid: 7e4c1e4f0784d4744868602644016316, type: 3}
+  - {fileID: 21300000, guid: 0f7b2a8f1911979458d7c66137651d43, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - hero-pro_SkeletonData_texture
+  - Bumble_texture
+  - Seed_texture
+  - FootSoldier_SkeletonData_texture
+  - Fledgling_texture
+  - eyes_SkeletonData_texture
+  - Bat_Lord_texture
+  - sack-pro_SkeletonData_texture
+  - Bee_texture
+  - Raggedy Spineboy_SkeletonData_texture
+  m_RenderDataMap: {}
+  m_Tag: ModelAtlas3D
+  m_IsVariant: 0
